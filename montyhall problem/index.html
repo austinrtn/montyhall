@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Monty Hall Problem</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1>Prooving the Monty Hall Problem</h1>
+    Name: <input type="text" id="name" value="George"> <br><br>
+    Itterations: <input id="itterations" type="number" value="1"> <br><br>
+    Action:
+    <select id="action">
+      <option value="random">Random</option>
+      <option value="firstChoice">First Choice</option>
+      <option value="switch">Switch</option>
+    </select>
+    <br /><br />
+
+    <button onClick="run();">Run</button>
+    <button onClick="reset();">Reset</button> <br><br>
+    <textarea id="console" cols="50" rows="20" readonly></textarea>
+
+    <script src="index.js"></script>
+  </body>
+</html>
